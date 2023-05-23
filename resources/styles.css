@@ -1,0 +1,100 @@
+/* fonts */
+
+* {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: coral
+}
+
+h2 {
+    font-size: 2rem;
+}
+/* banner */
+.banner {
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    padding: 0 10px;
+    left: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 100px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+a:hover {
+    color: coral;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:active {
+    color: #FFB69C;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+/* main */
+body {
+margin: 0 auto;
+max-width: 1000px;
+}
+
+main {
+    top: 0;
+    padding-top: 100px;
+}
+
+.profile-pic-container {
+    display: inline-block;
+    justify-content:flex-end;
+}
+
+.profile-pic-container img {
+    width: 300px;
+    border-radius: 25%;
+    top: 50px;
+    padding-top: 25px
+}
+
+#about-me {
+    display: block;
+    padding: 10px;
+    margin: 0 auto
+}
+
+.about-me-container {
+    display: flex;
+    
+}
+
+.about-me-text-container {
+    padding-right:20px;
+}
