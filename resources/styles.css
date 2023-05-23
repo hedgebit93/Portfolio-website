@@ -90,18 +90,27 @@ main {
     padding-top: 25px
 }
 
-#about-me {
+#about-me,
+#projects,
+#skills,
+#contact {
     display: block;
     padding: 10px;
     margin: 0 auto
 }
 
-.about-me-container {
+.about-me-container,
+.projects-container,
+.skills-container,
+.contact-container {
     display: flex;
     
 }
 
-.about-me-text-container {
+.about-me-text-container,
+.projects-text-container,
+.skills-text-container,
+.contact-text-container {
     padding-right:20px;
 }
 
