@@ -17,6 +17,12 @@ h2 {
     font-size: 2.5rem;
     font-family: 'Caveat', sans-serif;
 }
+
+h1,
+h2,
+p {
+    cursor:default;
+}
 /* banner */
 .banner {
     display: block;
@@ -114,6 +120,12 @@ main {
     padding-right:20px;
 }
 
+/* contact section */
+
+.contact-img {
+    width: 30px;
+    padding-right: 10px;
+}
 /* font family*/
 /* cyrillic-ext */
 @font-face {
