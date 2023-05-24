@@ -120,12 +120,20 @@ main {
     padding-right:20px;
 }
 
+/* skills section */
+
+.skills-img {
+    width: 30px;
+    padding-right: 10px;
+}
+
 /* contact section */
 
 .contact-img {
     width: 30px;
     padding-right: 10px;
 }
+
 /* font family*/
 /* cyrillic-ext */
 @font-face {
