@@ -18,8 +18,14 @@ h2 {
     font-family: 'Caveat', sans-serif;
 }
 
+h3 {
+    font-size: 2rem;
+    font-family: 'Caveat', sans-serif;
+}
+
 h1,
 h2,
+h3,
 p {
     cursor:default;
 }
@@ -119,6 +125,29 @@ main {
 .contact-text-container {
     padding-right:20px;
 }
+
+/* quiz */
+
+.question{
+    font-weight: 600;
+  }
+  .answers {
+      margin-bottom: 20px;
+  }
+  #submit{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #297;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  #submit:hover{
+    background-color: #3a8;
+  }
 
 /* skills section */
 
