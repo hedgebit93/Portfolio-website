@@ -1,6 +1,6 @@
 var myQuestions = [
     {
-        question: "What flower is associated with Yorkshire?",
+        question: "Which flower is associated with Yorkshire?",
         answers: {
             a: 'A daffodil',
             b: 'A thistle',
