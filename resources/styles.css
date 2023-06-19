@@ -166,7 +166,7 @@ main {
 }
 
 /* project section*/
-.project-title h3::marker {
+.project-title::marker {
     unicode-bidi: isolate;
     font-variant-numeric: tabular-nums;
     text-transform: none;
@@ -180,6 +180,13 @@ main {
     margin: 0;
     padding: 0;
 }
+
+.project-title img {
+    width: 400px;
+    display: inline-block;
+    
+}
+
 
 /* skills section */
 
