@@ -29,6 +29,19 @@ h3,
 p {
     cursor:default;
 }
+
+@media only screen and (max-width: 760px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
 /* banner */
 .banner {
     display: block;
@@ -79,6 +92,16 @@ li {
     justify-content: center;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 760px) {
+    a {
+        font-size: 1.25rem;
+    }
+    .nav {
+        max-width: 650px;
+    }
+}
+
 /* main */
 body {
 margin: 0 auto;
@@ -126,6 +149,15 @@ main {
     padding-right:20px;
 }
 
+@media only screen and (max-width: 760px) {
+    body {
+        max-width: 650px;
+    }
+    .profile-pic-container img {
+        max-width: 250px;
+    }
+}
+
 /* quiz */
 
 #quiz-container {
@@ -143,6 +175,7 @@ main {
 
 .question {
     font-weight: 600;
+    font-family: sans-serif;
 }
 
 .answers {
@@ -158,11 +191,17 @@ main {
    border-radius: 3px;
    padding: 20px;
    cursor: pointer;
-   margin-bottom: 20px;
+   margin: 0 30%;
 }
 
   #submit:hover {
     background-color: #FFB69C;
+}
+
+@media only screen and (max-width: 760px) {
+    #quiz-container {
+        margin: 0 15%;
+    }
 }
 
 /* project section*/
@@ -184,9 +223,7 @@ main {
 .project-title img {
     width: 400px;
     display: inline-block;
-    
 }
-
 
 /* skills section */
 
@@ -194,7 +231,6 @@ main {
     width: 30px;
     padding-right: 10px;
 }
-
 /* contact section */
 
 .contact-img {
