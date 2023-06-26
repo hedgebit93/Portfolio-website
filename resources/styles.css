@@ -205,6 +205,7 @@ main {
 }
 
 /* project section*/
+
 .project-title::marker {
     unicode-bidi: isolate;
     font-variant-numeric: tabular-nums;
