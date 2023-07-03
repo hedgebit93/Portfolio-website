@@ -240,6 +240,11 @@ details[open] summary {
     margin-bottom: 0.5em;
 }
 
+details,
+details h3 {
+    cursor:pointer;
+}
+
 /* skills section */
 
 .skills-img {
