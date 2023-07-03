@@ -206,7 +206,7 @@ main {
 
 /* project section*/
 
-.project-title::marker {
+.section::marker {
     unicode-bidi: isolate;
     font-variant-numeric: tabular-nums;
     text-transform: none;
@@ -215,15 +215,29 @@ main {
     text-align-last: start !important;
 }
 
-.project-title h3 {
+.section h3 {
     display: inline-block;
     margin: 0;
     padding: 0;
 }
 
-.project-title img {
+.section img {
     width: 400px;
-    display: inline-block;
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+details[open] {
+    h3 {
+       text-decoration: underline;  
+    }
+   
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
 }
 
 /* skills section */
